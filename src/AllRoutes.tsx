@@ -4,7 +4,7 @@ import { History } from './pages/History'
 
 import { Home } from './pages/Home'
 
-export function Router() {
+export function AllRoutes() {
   return (
     <Routes>
       <Route path="/" element={<DefaultLayout />}>
